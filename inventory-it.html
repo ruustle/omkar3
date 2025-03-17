@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario Veicoli | Omkar Autosalone Multimarca</title>
+    <meta name="description" content="Scopri il nostro vasto inventario di auto usate di qualità presso Omkar Autosalone Multimarca. Trova il veicolo perfetto per te ad un ottimo prezzo.">
+    <meta name="keywords" content="inventario auto, auto usate, Omkar Autosalone, Sesto Calende, Varese">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="cars-it.js" defer></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <div class="container navbar">
+            <div>
+                <a href="index.html">
+                    <img id="logo-img" src="omkar logo.jpg" alt="Omkar Logo" height="150" >
+                </a>
+            </div>
+            <button class="mobile-menu-toggle">
+                ☰
+            </button>
+
+            <nav>
+                <ul>
+                    <li><a href="index-it.html">Home</a></li>
+                    <li><a href="inventory-it.html">Inventario</a></li>
+                    <li><a href="index-it.html#about">Chi Siamo</a></li>
+                    <li><a href="index-it.html#services">Servizi</a></li>
+                    <li><a href="index-it.html#testimonials">Testimonianze</a></li>
+                    <li><a href="index-it.html#contact">Contatti</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <a href="index.html">English</a> | <a href="index-it.html">Italiano</a>
+            </div>
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch">
+                <label for="theme-switch"></label>
+            </div>
+        
+        </div>
+    </header>
+    <section id="inventory-full">
+        <div class="container">
+            <h2 class="section-title">Vehicle Inventory</h2>
+            
+    
+            <div style="margin-bottom: 1rem;">
+                <div class="filter-section">
+                    <div class="filter-controls">
+                      <div class="filter-group">
+                        <label for="filter-make">Filtra per Marca:</label>
+                        <div class="select-wrapper">
+                          <select id="filter-make">
+                            <option value="all">Tutte le Marche</option>
+                          </select>
+                        </div>
+                      </div>
+                      
+                      <div class="filter-group">
+                        <label for="sort-by">Ordinare per:</label>
+                        <div class="select-wrapper">
+                          <select id="sort-by">
+                            <option value="price-low-to-high">Prezzo: crescente</option>
+                            <option value="price-high-to-low">Prezzo: decrescente</option>
+                            <option value="year-newest-to-oldest">Anno: dal più recente</option>
+                            <option value="year-oldest-to-newest">Anno: dal più vecchio</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+    
+            <div class="featured-cars" id="carListings">
+                </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-brand">
+                    <svg width="250" viewBox="0 0 1024 300" xmlns="http://www.w3.org/2000/svg">
+                        <text x="280" y="170" font-family="Arial" font-weight="bold" font-size="200" fill="#ffffff">Om</text>
+                        <text x="620" y="170" font-family="Arial" font-weight="bold" font-size="200" fill="#0a7132">kar.</text>
+                        <text x="250" y="230" font-family="Arial" font-weight="bold" font-size="70" fill="#ffffff">autosalone multimarca</text>
+                    </svg>
+                </div>
+                <div class="footer-section footer-contact">
+                    <h3>Contattaci</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Corso Giacomo Matteotti, 52, 21018 Sesto Calende VA</p>
+                    <p><i class="fas fa-phone"></i> +39 320 251 0055</p>
+                    <p>
+                        <a href="https://wa.me/393202510055" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp" style="color: #25D366; margin-right: 5px;"></i>
+                            Contattaci su WhatsApp
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Omkar Autosalone Multimarca. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <a class="lightbox-prev" id="lightbox-prev">&#10094;</a>
+        <a class="lightbox-next" id="lightbox-next">&#10095;</a>
+    </div>
+    <script src="cars-it.js"></script>
+    <script src="theme-toggle.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

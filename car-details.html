@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Car Details | Omkar Autosalone</title>
+        <meta name="description" content="View detailed information about our used cars at Omkar Autosalone Multimarca. See photos, specs, and more.">
+        <meta name="keywords" content="car details, used car specs, Omkar Autosalone, Sesto Calende, Varese">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+    </head>
+<body>
+    <header>
+        <div class="container navbar">
+            <div>
+                <a href="index.html">
+                    <img id="logo-img" src="omkar logo.jpg" alt="Omkar Logo" height="150" >
+                </a>
+            </div>
+            <button class="mobile-menu-toggle">
+                ☰
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="inventory.html">Inventory</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <a href="index.html">English</a> | <a href="index-it.html">Italiano</a>
+              </div>
+              <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch">
+                <label for="theme-switch"></label>
+            </div>
+        </div>
+    </header>
+    <div class="container car-details-container">
+        <div id="carDetailsContainer">
+        </div>
+        
+        <a href="inventory.html" class="back-button"><i class="fas fa-arrow-left"></i> Back to Inventory</a>
+    </div>
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="container contact-grid">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/mgvavebb" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <textarea name="message" placeholder="How can we help you today?"></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Visit Our Showroom</h3>
+                <div class="contact-details">
+                    <p><strong>Address:</strong> Corso Giacomo Matteotti, 52, 21018 Sesto Calende VA</p>
+                    <p><strong>Phone:</strong> +39 320 251 0055</p>
+<p>
+    <a href="https://wa.me/393202510055" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp" style="color: #25D366; margin-right: 5px;"></i>
+        Contact us on WhatsApp
+    </a>
+</p>
+                </div>
+                <h3>Business Hours with appointment</h3>
+<div class="contact-details">
+    <p><strong>Monday-Friday:</strong> 09:00–12:00 & 14:00–18:30</p>
+    <p><strong>Saturday:</strong> 09:00–12:30</p>
+    <p><strong>Sunday:</strong> Closed</p>
+</div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-brand">
+                    <svg width="250" viewBox="0 0 1024 300" xmlns="http://www.w3.org/2000/svg">
+                        <text x="280" y="170" font-family="Arial" font-weight="bold" font-size="200" fill="#ffffff">Om</text>
+                        <text x="620" y="170" font-family="Arial" font-weight="bold" font-size="200" fill="#0a7132">kar.</text>
+                        <text x="250" y="230" font-family="Arial" font-weight="bold" font-size="70" fill="#ffffff">autosalone multimarca</text>
+                    </svg>
+                </div>
+                <div class="footer-section footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Via Automobili 123, Milano, 20100</p>
+                    <p><i class="fas fa-phone"></i> +39 320 251 0055</p>
+<p>
+    <a href="https://wa.me/393202510055" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp" style="color: #25D366; margin-right: 5px;"></i>
+        Contact us on WhatsApp
+    </a>
+</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Omkar Autosalone Multimarca. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="car-details.js"></script>
+    <script src="theme-toggle.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>

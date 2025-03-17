@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dettagli Auto | Omkar Autosalone</title>
+    <meta name="description" content="Visualizza le informazioni dettagliate sulle nostre auto usate presso Omkar Autosalone Multimarca. Guarda foto, specifiche e altro.">
+    <meta name="keywords" content="dettagli auto, specifiche auto usate, Omkar Autosalone, Sesto Calende, Varese">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <div class="container navbar">
+            <div>
+                <a href="index.html">
+                    <img id="logo-img" src="omkar logo.jpg" alt="Omkar Logo" height="150" >
+                </a>
+            </div>
+            <button class="mobile-menu-toggle">
+                ☰
+            </button>
+
+            <nav>
+                <ul>
+                    <li><a href="index-it.html">Home</a></li>
+                    <li><a href="inventory-it.html">Inventario</a></li>
+                    <li><a href="index-it.html#about">Chi Siamo</a></li>
+                    <li><a href="index-it.html#services">Servizi</a></li>
+                    <li><a href="index-it.html#testimonials">Testimonianze</a></li>
+                    <li><a href="index-it.html#contact">Contatti</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <a href="index.html">English</a> | <a href="index-it.html">Italiano</a>
+            </div>
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch">
+                <label for="theme-switch"></label>
+            </div>
+        
+        </div>
+    </header>
+    <div class="container car-details-container">
+        <div id="carDetailsContainer">
+        </div>
+
+        <a href="inventory-it.html" class="back-button"><i class="fas fa-arrow-left"></i> Torna all'inventario</a>
+    </div>
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contattaci</h2>
+        <div class="container contact-grid">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/mgvavebb" method="POST">
+                    <input type="text" name="name" placeholder="Il tuo Nome" required>
+                    <input type="email" name="email" placeholder="La tua Email" required>
+                    <input type="tel" name="phone" placeholder="Numero di Telefono">
+                    <textarea name="message" placeholder="Come possiamo esserti utili?"></textarea>
+                    <button type="submit" class="btn">Invia Messaggio</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Vieni a Visitare il Nostro Showroom</h3>
+                <div class="contact-details">
+                    <p><strong>Indirizzo:</strong> Corso Giacomo Matteotti, 52, 21018 Sesto Calende VA</p>
+                    <p><strong>Telefono:</strong> +39 320 251 0055</p>
+                    <p>
+                        <a href="https://wa.me/393202510055" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp" style="color: #25D366; margin-right: 5px;"></i>
+                            Contattaci su WhatsApp
+                        </a>
+                    </p>
+                </div>
+                <h3>Orari di Apertura (su appuntamento)</h3>
+                <div class="contact-details">
+                    <p><strong>Lunedì-Venerdì:</strong> 09:00–12:00 & 14:00–18:30</p>
+                    <p><strong>Sabato:</strong> 09:00–12:30</p>
+                    <p><strong>Domenica:</strong> Chiuso</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-brand">
+                    <svg width="250" viewBox="0 0 1024 300" xmlns="http://www.w3.org/2000/svg">
+                        <text x="280" y="170" font-family="Arial" font-weight="bold" font-size="200" fill="#ffffff">Om</text>
+                        <text x="620" y="170" font-family="Arial" font-weight="bold" font-size="200" fill="#0a7132">kar.</text>
+                        <text x="250" y="230" font-family="Arial" font-weight="bold" font-size="70" fill="#ffffff">autosalone multimarca</text>
+                    </svg>
+                </div>
+                <div class="footer-section footer-contact">
+                    <h3>Contattaci</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Corso Giacomo Matteotti, 52, 21018 Sesto Calende VA</p>
+                    <p><i class="fas fa-phone"></i> +39 320 251 0055</p>
+                    <p>
+                        <a href="https://wa.me/393202510055" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp" style="color: #25D366; margin-right: 5px;"></i>
+                            Contattaci su WhatsApp
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Omkar Autosalone Multimarca. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="car-details-it.js"></script>
+    <script src="theme-toggle.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
